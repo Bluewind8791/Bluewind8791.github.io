@@ -22,8 +22,8 @@ author:
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&family=Noto+Sans+KR
 
 # URL settings
-url: "https://bluewind8791.github.io/" # Domain Name of host. [username].github.io for github pages
-baseurl: ""
+url: "https://bluewind8791.github.io" # Domain Name of host. [username].github.io for github pages
+baseurl: "/"
 permalink: pretty
 
 # local
