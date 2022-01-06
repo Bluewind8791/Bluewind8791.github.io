@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Foam Login
-description: 
-summary: 
+title: "[Spring Security] Foam Login"
+description: spring security foam login
+summary: spring security foam login
 tags: spring_security
-minute: 
 ---
 
 ## **DefaultLoginPageGeneratingFilter**

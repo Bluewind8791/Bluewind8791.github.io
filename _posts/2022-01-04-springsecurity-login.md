@@ -1,18 +1,17 @@
 ---
 layout: post
-title: 로그인 하기
-description: 
-summary: 
+title: "[Spring Security] 로그인하기"
+description: spring security login
+summary: spring security login
 tags: spring_security
-# minute: 10
 ---
+
+## Spring Security에서 Login은?
 
 스프링 프레임워크에서의 로그인은 authenticated 가 true인 Authentication 객체를 SecurityContext에 갖고있는 상대를 말한다.  
 단, Authentication이 AnonymousAuthenticationToken 만 아니면 된다.
 
-```text
-로그인 == Authentication(authenticated = true) only if Authentication != AnonymousAuthenticationToken
-```
+>로그인 == Authentication(authenticated = true) only if Authentication != AnonymousAuthenticationToken
 
 ## Authentication(인증)의 기본 구조
 
@@ -41,7 +40,7 @@ tags: spring_security
 
 Authentication 을 제공(Provide) 하는 인증제공자(AuthenticationProvider)는 여러개가 동시에 존재할 수 있고, 인증 방식에 따라 ProviderManager 도 복수로 존재할 수 있다.
 
-Authentication 은 인터페이스로 아래와 같은 정보들을 갖고 있습니다.
+Authentication 은 인터페이스로 아래와 같은 정보들을 갖고 있다.
 
 - Set\<GrantedAuthority> authorities : 인증된 권한 정보
 - principal : 인증 대상에 관한 정보. 주로 UserDetails 객체가 옴

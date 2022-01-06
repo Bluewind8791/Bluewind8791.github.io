@@ -1,10 +1,9 @@
 ---
 layout: post
-title: 스프링 시큐리티의 큰 그림
-description: 
-summary: 
+title: "[Spring Security] 스프링 시큐리티의 큰 그림"
+description: spring security
+summary: spring security
 tags: spring_security
-minute: 
 ---
 
 ## 서블릿 컨테이너
