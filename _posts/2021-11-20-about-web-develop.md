@@ -123,10 +123,10 @@ REST (Representational State Transfer : 자원의 상태 전달) - 네트워크 
 
 - method 8 가지
 
-|의미|CRUD|멱등성|안정성|
-|------|---|---|---|
+|         | 의미 | CRUD | 멱등성 | 안정성 |
+|---------|-----|------|-------|-------|
 | GET     | 리소스 취득 | Read | O | O |
-| POST    | 리소스 생성, 추가 | C |   X       |    X |
+| POST    | 리소스 생성, 추가 | C | X |  X |
 | PUT     | 리소스 갱신, 생성 | C/Update | O | X |
 | DELETE  | 리소스 삭제 | Delete | O | X |
 | HEAD    | 헤더 데이터 취득|  |  |

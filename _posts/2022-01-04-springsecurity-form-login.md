@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Spring Security] Foam Login"
-description: spring security foam login
-summary: spring security foam login
+title: "[Spring Security] Form Login"
+description: spring security form login
+summary: spring security form login
 tags: spring_security
 ---
 
