@@ -10,7 +10,7 @@ tags: spring_security
 
 ---
 
-![map](2022/01/06/map.png)
+![map](https://github.com/Bluewind8791/Bluewind8791.github.io/tree/main/image/map.png)
 
 - Student는 로그인을 통하여 StudentAuthenticationProvider을 통하여 StudentAuthenticationToken을 발급받는다.
 - Teacher은 로그인을 통하여 TeacherAuthenticationProvider을 통하여 TeacherAuthenticationToken을 발급받는다.
