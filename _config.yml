@@ -84,10 +84,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: "/assets/image"
-    values:
-      image: true
 
 relative_links:
   enabled:     true
