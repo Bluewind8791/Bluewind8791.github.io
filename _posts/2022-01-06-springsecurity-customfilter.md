@@ -10,7 +10,7 @@ tags: spring_security
 
 ---
 
-![map](https://user-images.githubusercontent.com/85560758/148631055-ee78bc30-eea7-4a91-b161-a05a6331aac6.png)
+![map](/assets/image/map.png)
 
 - Student는 로그인을 통하여 StudentAuthenticationProvider을 통하여 StudentAuthenticationToken을 발급받는다.
 - Teacher은 로그인을 통하여 TeacherAuthenticationProvider을 통하여 TeacherAuthenticationToken을 발급받는다.
