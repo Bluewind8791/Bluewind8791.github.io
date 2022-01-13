@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring Security] BasicAuthenticationFilter Test"
+title: "[Spring Security] BasicAuthenticationFilter Test - GET method"
 description: spring security basic authentication auth filter test
 summary: spring security basic authentication auth filter test
 tags: spring_security
