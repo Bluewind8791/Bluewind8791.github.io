@@ -3,7 +3,7 @@ layout: post
 title: "[Spring Security] BasicAuthenticationFilter"
 description: spring security basic authentication auth filter
 summary: spring security basic authentication auth filter
-tags: spring-security
+tags: spring_security
 ---
 
 # BasicAuthenticationFilter
@@ -23,7 +23,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             ;
     }
 }
-
 ```
 
 - SecurityContext 에 인증된 토큰이 없다면 아래와 같은 포맷의 토큰을 받아서 인증처리를 하고 간다.

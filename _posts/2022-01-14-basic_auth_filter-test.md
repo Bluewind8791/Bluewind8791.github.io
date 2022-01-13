@@ -3,7 +3,7 @@ layout: post
 title: "[Spring Security] BasicAuthenticationFilter Test"
 description: spring security basic authentication auth filter test
 summary: spring security basic authentication auth filter test
-tags: spring-security
+tags: spring_security
 ---
 
 # BasicAuthenticationFilter
