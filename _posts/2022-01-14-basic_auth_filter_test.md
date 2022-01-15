@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring Security] BasicAuthenticationFilter Test - GET method"
+title: "[Spring Security] BasicAuthenticationFilter Test"
 description: spring security basic authentication auth filter test
 summary: spring security basic authentication auth filter test
 tags: spring_security
@@ -9,8 +9,6 @@ tags: spring_security
 # BasicAuthenticationFilter
 
 필터를 검증하는 테스트를 해보자.
-
-## **GET 방식**
 
 ```java
 @RestController
