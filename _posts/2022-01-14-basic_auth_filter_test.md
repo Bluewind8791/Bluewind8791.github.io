@@ -10,6 +10,8 @@ tags: spring_security
 
 필터를 검증하는 테스트를 해보자.
 
+※ 본 코드는 [GitHub 페이지](https://github.com/Bluewind8791/Learning-Programming/tree/main/Learning-Spring/Part3/5-BasicAuthenticationFilter-Test)에서 확인할 수 있습니다.
+
 ```java
 @RestController
 public class HomeController {
