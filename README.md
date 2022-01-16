@@ -1,7 +1,7 @@
 # Gesko
 
-Simple and minimal Jekyll blog. 
-Forked from [Asko](https://github.com/manuelmazzuola/asko).
+Simple and minimal Jekyll blog.  
+Forked from [Gesko](https://github.com/P0WEX/Gesko).  
 Original theme from [Sidey](https://github.com/ronv/sidey).
 
 ### Features
@@ -21,6 +21,7 @@ Original theme from [Sidey](https://github.com/ronv/sidey).
 - [x] Next & Previous Post ⏮️ ⏭️
 - [x] Automatic/Manual reading time estimation 🕐
 - [x] Disqus section ✍️ 
+- [x] Apply Korean language font 🇰🇷
 
 ## Backlogs
 
