@@ -87,7 +87,8 @@ http
 - 3명의 사용자를 만든다.
 - 동시접속 제어를 테스트 한다.
 - RememberMe 설정.
-- RememberMe 를 설정했을때
+
+*(본 코드는 [GitHub](https://github.com/Bluewind8791/learning_programming/tree/main/Learning-Spring/part3_spring-security/8-session-management) 페이지에서 확인할 수 있습니다.)*
 
 ## Session Monitoring Page
 

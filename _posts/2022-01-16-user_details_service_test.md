@@ -8,13 +8,13 @@ tags: spring_security
 
 # DaoAuthenticationManager 와 UserDetailsService Test
 
-※ 본 코드는 [GitHub 페이지](https://github.com/Bluewind8791/Learning-Programming/tree/main/Learning-Spring/Part3/6-userdetails)에서 확인할 수 있습니다.
-
 ## 실습 하기
 
 - login-userdetails 폴더를 만든다.
 - user-admin comp 모듈을 만들고, SpUser, SpAuthority Entity와 Repository 를 만든다.
 - h2 DB 를 세팅한다.
+
+*본 코드는 [GitHub 페이지](https://github.com/Bluewind8791/Learning-Programming/tree/main/Learning-Spring/Part3/6-userdetails)에서 확인할 수 있습니다.*
 
 ---
 
