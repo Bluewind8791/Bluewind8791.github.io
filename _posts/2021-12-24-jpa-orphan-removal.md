@@ -6,7 +6,25 @@ summary: spring jpa orphan removal
 tags: jpa spring
 ---
 
-# JPA에서 OrphanRemoval 활용하기
+# orphanRemoval
+
+```java
+@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "paper")
+private List<PaperAnswer> paperAnswerList;
+```
+
+- 보통 1:N 관계 테이블 설정할 때 옵션을 추가해준다.
+- 자식 엔티티의 변경이 있다면, JPA 에서 자식엔티티의 수정은 insert update update delete 순으로 이어지는데, 변경된 자식을 먼저 insert 하고, 기존의 자식을 NULL로 update 한다.
+- 그리고 `orphanRemoval=true` 로 하면 기존 NULL 처리된 자식을 DELETE 한다.
+- PK(JoinColumn)값이 NULL로 변한 자식은 고아객체라고 하여 연결된 점이 없는 객체이다. 
+- orphanRemoval 옵션은 바로 이 고아객체를 삭제해주는 역할을 한다.
+- 이 속성은 참조하는 곳이 하나일 때만 사용해야 한다.
+- 특정 엔티티가 개인 소유할 때만 사용해야한다. 
+- `@OneToOne` 과 `@OneToMany` 에서만 사용이 가능하다.
+
+---
+
+## Example
 
 아래와 같이 delete test를 실행해보자.
 
