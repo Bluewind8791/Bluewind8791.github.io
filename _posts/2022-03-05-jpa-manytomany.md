@@ -8,7 +8,17 @@ tags: jpa spring
 
 ## N:N 연관관계 살펴보기
 
-실무에서는 잘 사용되지 않는다고 한다.
+- 다대다의 관계는 A는 B 에 많은 자식 이 있는 부모 인스턴스를 포함할 수 있고 반대의 경우도 마찬가지이다.
+
+- 예를 들어 A를 저자로, B를 책으로 한다면, 저자는 여러 책을 쓸 수 있으며, 책은 여러 저자로부터 쓰일 수 있다.
+
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/CPT-Databases-ManytoMany.svg/250px-CPT-Databases-ManytoMany.svg.png)
+
+- (실무에서는 잘 사용되지 않는다고 한다.)
+
+---
+
+## 구현
 
 ```sql
 create table author_books (
@@ -26,3 +36,9 @@ create table author_books (
   - 이 경우에는 'Order' 라는 이름의 중간테이블을 만들어서 처리한다.
   - 'User' 과 'Order' 의 관계는 1:N 으로 설정.
   - 'Product' 와 'Order'의 관계는 1:n 으로 설정하여 처리한다.
+
+---
+
+## 참고
+
+- https://en.wikipedia.org/wiki/Many-to-many_(data_model)

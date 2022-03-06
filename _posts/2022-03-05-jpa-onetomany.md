@@ -6,6 +6,24 @@ summary: jpa spring OneToMany entity relation ManyToOne
 tags: jpa spring
 ---
 
+## 일대다? 다대다?
+
+### 1:N
+
+- 예를 들어, A를 책으로, B를 페이지로 생각하자.
+- 책은 여러 페이지를 포함할 수 있지만, 페이지는 한 책에만 포함될 수 있다.
+- 즉, 테이블 A의 한 행(column)이 테이블 B의 여러 행과 연결될 수 있지만, 테이블 B의 한 행이 테이블 A의 한 행에만 연결될 때이다.
+- 일대다 관계는 데이터의 속성이 아니라 관계 자체의 속성이다.
+
+### N:N
+
+- 다대다의 관계는 A는 B 에 많은 자식 이 있는 부모 인스턴스를 포함할 수 있고 반대의 경우도 마찬가지이다.
+- 예를 들어 A를 저자로, B를 책으로 한다면, 저자는 여러 책을 쓸 수 있으며, 책은 여러 저자로부터 쓰일 수 있다.
+
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/CPT-Databases-ManytoMany.svg/250px-CPT-Databases-ManytoMany.svg.png)
+
+---
+
 ## 1:N / N:1 연관관계 알아보기
 
 - 일대다 매핑은 테이블의 한 행이 다른 테이블의 여러 행에 매핑됨을 의미한다.
@@ -117,3 +135,4 @@ targetEntity | 연관된 엔티티의 타입 정보를 설정한다. 이 기능�
 
 - https://www.baeldung.com/hibernate-one-to-many
 - https://velog.io/@devsh/JPA-%EC%97%B0%EA%B4%80-%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91-OneToMany-ManyToOne-OneToOne-ManyToMany
+- https://en.wikipedia.org/wiki/One-to-many_(data_model)
