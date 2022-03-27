@@ -1,5 +1,5 @@
 ---
-layout: POST
+layout: post
 title: "Travis CI로 설정파일 암호화 시키기"
 description: aws travis application
 summary: aws travis application
