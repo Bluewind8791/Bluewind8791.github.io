@@ -49,6 +49,13 @@ service nginx status
 ps ef | grep java
 ```
 
+리눅스 현재 리소스 사용 확인
+
+```
+top
+```
+
+
 ---
 
 ## Nginx
