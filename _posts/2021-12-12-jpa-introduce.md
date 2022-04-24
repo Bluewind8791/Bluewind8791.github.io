@@ -8,9 +8,12 @@ tags: jpa spring
 
 # JPA 소개
 
-- **ORM** = Application과 DB를 연결하는 것.
-- Java 진영에서는 ORM을 **JPA 인터페이스**로 제공.
-- JPA의 실제 클래스들을 모아놓은것이 **Hibernate**인데 그중에서 자주쓰이는 기능들을 더 사용하기 쉽도록 framework에서 제공하는것이 **Spring Data Ipa** 이다.
+- 객체와 데이터베이스 사이의 관계를 연결해주는 것을 **ORM**(Object Relational Mapping)이라고 합니다.
+- Java 진영에서는 ORM의 표준 스펙으로 **JPA**(Java Persistence Api)를 인터페이스로 정의하여 제공합니다.
+- JPA의 실제 클래스들을 모아놓은 것이 **Hibernate**인데, 그 중에서 자주쓰이는 기능들을 더 사용하기 쉽도록 Spring Framework에서 제공하는것이 **Spring Data JPA** 입니다.
+
+- Hibernate란 JPA에 대한 실제 구현체, 흔히 말하는 Implemetation 입니다.
+- Spring Data Jpa 는 Spring 에서 Hibernate를 조금 간편하게 사용할 수 있도록 추상객체를 한번 더 감싸서 만들어 놓은것입니다.
 
 ---
 
